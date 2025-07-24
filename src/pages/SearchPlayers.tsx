@@ -157,7 +157,7 @@ const SearchPlayers = () => {
                       <SelectValue placeholder="Select position" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Positions</SelectItem>
+                      <SelectItem value="all">All Positions</SelectItem>
                       {positions.map((position) => (
                         <SelectItem key={position} value={position}>
                           {position}
@@ -175,7 +175,7 @@ const SearchPlayers = () => {
                       <SelectValue placeholder="Select league" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">All Leagues</SelectItem>
+                      <SelectItem value="all">All Leagues</SelectItem>
                       {leagues.map((league) => (
                         <SelectItem key={league} value={league}>
                           {league}
